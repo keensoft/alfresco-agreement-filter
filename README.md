@@ -14,8 +14,8 @@ Downloading the ready-to-deploy-plugin
 --------------------------------------
 The binary distribution is made of one AMP file for repo and another AMP file for share:
 
-* [repo AMP](https://github.com/keensoft/alfresco-agreement-filter/blob/master/agreement-filter-repo/target/agreement-filter-repo-1.0.0.amp?raw=true)
-* [share AMP](https://github.com/keensoft/alfresco-agreement-filter/blob/master/agreement-filter-share/target/agreement-filter-share-1.0.0.amp?raw=true)
+* [repo AMP](https://github.com/keensoft/alfresco-agreement-filter/blob/master/dist/agreement-filter-repo-1.0.0.amp?raw=true)
+* [share AMP](https://github.com/keensoft/alfresco-agreement-filter/blob/master/dist/agreement-filter-share-1.0.0.amp?raw=true)
 
 You can install it by using standard [Alfresco deployment tools](http://docs.alfresco.com/community/tasks/dev-extensions-tutorials-simple-module-install-amp.html)
 
