@@ -1,0 +1,13 @@
+<webscript>
+  <shortname>Get agreement document sharedId</shortname>
+  <description><![CDATA[
+  Get agreement document sharedId
+  To test: curl -v -u admin:admin "http://localhost:8080/alfresco/service/keensoft/agreement-page"
+  <br />
+  Returns "{sharedId: {sharedId}}"
+  ]]></description>
+  <url>/keensoft/agreement-page</url>
+  <format default="json"/>
+  <authentication>none</authentication>
+  <transaction>none</transaction>
+</webscript>

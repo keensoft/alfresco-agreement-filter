@@ -1,0 +1,13 @@
+<webscript>
+  <shortname>Update agreement status for user</shortname>
+  <description><![CDATA[
+  Update agreement status for user
+  <br />
+  To test: curl -v -u admin:admin -X POST -H "Content-type:application/json" http://localhost:8080/alfresco/service/keensoft/agreement/{username}
+  <br />
+  ]]></description>
+  <url>/keensoft/agreement/{username}</url>
+  <format default="json">argument</format>
+  <authentication>user</authentication>
+  <transaction>required</transaction>
+</webscript>

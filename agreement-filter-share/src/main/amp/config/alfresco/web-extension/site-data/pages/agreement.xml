@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>Agreement</title>
+   <description>Page for displaying agreement clauses</description>
+   <template-instance>agreement</template-instance>
+   <authentication>none</authentication>
+   <components>
+
+      <component>
+         <region-id>components</region-id>
+         <sub-components>
+
+            <sub-component id="header">
+               <url>/components/agreement/header</url>
+               <properties>
+                  <sharedId>{sharedId}</sharedId>
+                  <loginLink>document-details</loginLink>
+               </properties>
+            </sub-component>
+
+            <sub-component id="node-header">
+               <url>/components/agreement/node-header</url>
+               <properties>
+                  <sharedId>{sharedId}</sharedId>
+               </properties>
+            </sub-component>
+
+            <sub-component id="web-preview">
+               <url>/components/preview/web-preview</url>
+               <properties>
+                  <nodeRef>{sharedId}</nodeRef>
+                  <api>api/internal/shared</api>
+                  <proxy>alfresco-noauth</proxy>
+               </properties>
+            </sub-component>
+         </sub-components>
+
+      </component>
+
+   </components>
+</page>

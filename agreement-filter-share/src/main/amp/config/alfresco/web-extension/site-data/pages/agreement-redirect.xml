@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<page>
+   <title>Agreement Redirect</title>
+   <description>Page for redirecting after agreement</description>
+   <template-instance>agreement-redirect</template-instance>
+   <authentication>user</authentication>
+</page>

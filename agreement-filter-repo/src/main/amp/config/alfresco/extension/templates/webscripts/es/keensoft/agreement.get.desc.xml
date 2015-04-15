@@ -1,0 +1,10 @@
+<webscript>
+  <shortname>Get agreement status for user</shortname>
+  <description>Get agreement status for user
+  To test: curl -v -u admin:admin "http://localhost:8080/alfresco/service/keensoft/agreement/{username}"
+  </description>
+  <url>/keensoft/agreement/{username}</url>
+  <format default="json"/>
+  <authentication>user</authentication>
+  <transaction>none</transaction>
+</webscript>

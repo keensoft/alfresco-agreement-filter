@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<parent>
+		<artifactId>agreement-filter</artifactId>
+		<groupId>es.keensoft.alfresco</groupId>
+		<version>1.0.0</version>
+	</parent>
+	
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>agreement-filter-share</artifactId>
+	<packaging>amp</packaging>
+	<name>Share components :: Agreement initial page for every new user</name>
+	
+	<dependencies>
+		<!-- @WebFilter available since servlet 3.0 (Tomcat 7) -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.extensions.surf</groupId>
+			<artifactId>spring-surf-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+</project>

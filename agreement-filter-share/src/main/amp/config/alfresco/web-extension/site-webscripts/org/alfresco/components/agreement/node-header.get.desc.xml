@@ -1,0 +1,5 @@
+<webscript>
+  <shortname>Agreement node Header</shortname>
+  <description>Agreement node header component</description>
+  <url>/components/agreement/node-header</url>
+</webscript>
