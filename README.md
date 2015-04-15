@@ -34,6 +34,6 @@ Configuring the content
 -----------------------
 Include and set the following properties at ```alfresco-global.properties``` on your Alfresco installation:
 ```sh
-	# Agreement content path
-	agreement.file.path=/app:company_home/app:dictionary/app:publishing_root/cm:Alfresco_Terms_Of_Use.pdf
+# Agreement content path
+agreement.file.path=/app:company_home/app:dictionary/app:publishing_root/cm:Alfresco_Terms_Of_Use.pdf
 ```
