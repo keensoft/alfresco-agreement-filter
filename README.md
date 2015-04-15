@@ -10,12 +10,14 @@ The default page content is set in ```alfresco-global.properties``` file and mus
 
 The plugin is licensed under the [LGPL v3.0](http://www.gnu.org/licenses/lgpl-3.0.html). The current version is compatible with Alfresco **5.0** CE.
 
+![Screencap](https://cloud.githubusercontent.com/assets/1818300/7159455/7ddf5f10-e382-11e4-8a85-2967a8a26365.png)
+
 Downloading the ready-to-deploy-plugin
 --------------------------------------
 The binary distribution is made of one AMP file for repo and another AMP file for share:
 
-* [repo AMP](https://github.com/keensoft/alfresco-agreement-filter/blob/master/dist/agreement-filter-repo-1.0.0.amp?raw=true)
-* [share AMP](https://github.com/keensoft/alfresco-agreement-filter/blob/master/dist/agreement-filter-share-1.0.0.amp?raw=true)
+* [repo AMP](https://github.com/keensoft/alfresco-agreement-filter/releases/download/1.0.0/agreement-filter-repo-1.0.0.amp)
+* [share AMP](https://github.com/keensoft/alfresco-agreement-filter/releases/download/1.0.0/agreement-filter-share-1.0.0.amp)
 
 You can install it by using standard [Alfresco deployment tools](http://docs.alfresco.com/community/tasks/dev-extensions-tutorials-simple-module-install-amp.html)
 
